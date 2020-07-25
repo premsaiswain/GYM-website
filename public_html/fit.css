@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 Jul, 2020, 7:09:53 AM
+    Author     : PREM
+*/
+body{
+    background-image:url("fiitness/back.jpg"); 
+    background-size: cover;   
+}
+.logo{
+    font-family:cursive;
+    font-size: 30px;
+    position: absolute;
+    left:33px;
+    top:24px; 
+    display: inline-block;
+    color: white;
+}
+.navbar{
+    font-family: cursive;
+    position:absolute;
+    font-size: 20px;
+    width:650px; 
+    right:100px;
+    top:24px;
+    padding-right:9px; 
+    display: inline-block;
+   color: white;
+}avbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    display: inline-block;
+    padding: 5px;
+}
+.navbar li a:hover,.navbar li 
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    display: inline-block;
+    padding: 5px;
+}
+.navbar li a:hover,.navbar li a.active{
+    background:grey; 
+}a.active{
+    background:grey; 
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    display: inline-block;
+    padding: 5px;
+}
+.navbar li a:hover,.navbar li a.active{
+    background:grey; 
+}
+.contant{
+    color:white;
+    margin-top:300px;
+    margin-left:15px; 
+    width:550px;
+    height:400px; 
+    margin-left: 100px;
+}
+
+.contant h1{
+    margin-left:118px; 
+    font-size:50px;
+    font-family:cursive;
+    color: black;
+}
+.btn{
+    margin-left:190px; 
+   margin-bottom:50px; 
+   border-radius:5px; 
+    padding: 9px;
+    color:white;
+    background-color:red;
+    font-size: 24px;
+    font-family: cursive;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color:transparent; 
+    border:1px solid white; 
+   
+}

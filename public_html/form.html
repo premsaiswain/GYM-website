@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>form-page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image:url(fiitness/back.jpg);
+                background-size:cover; 
+            } 
+            .btn:hover{
+                background-color: transparent;
+                border: 1px solid white;
+            }
+            .cont{
+                font-family:cursive;
+                display:inline; 
+            }       
+            .cont h1{
+                font-size:30px;
+                margin-left:50px;
+                margin-top: 40px;
+            }
+            input{
+    font-size: 24px;
+    width:400px; 
+    display: block;
+    margin-top:5px; 
+    margin-left:50px; 
+    border:black; 
+    color: white;
+    font-family: cursive;
+    text-align:center; 
+} 
+.btn{
+    margin-top: 5px;
+     margin-left:190px; 
+   margin-bottom:15px; 
+   border-radius:5px; 
+    padding: 9px;
+    color:white;
+    background-color:red;
+    font-size: 24px;
+    font-family: cursive;
+    text-decoration: none;
+}
+.shape h1{
+    font-size: 40px;
+    float: right;
+    width:500px;
+    height:200px;
+    
+}
+            .navbar{
+    font-family: cursive;
+    position:absolute;
+    font-size: 20px;
+    width:650px; 
+    right:100px;
+    top:24px;
+    padding-right:9px; 
+    display: inline-block;
+   color: white;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    display: inline-block;
+    padding: 5px;
+}
+.navbar li a:hover,.navbar li a.active{
+    background:grey; 
+}
+        </style>
+    </head>
+    <body>
+        <div class="cont">
+            <h1>
+                Enter your details here to join us:
+            </h1>
+              <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About-us</a></li>
+                    <li><a href="fit.html">Fit-calculator</a></li>
+                    <li><a href="contact.html">contact-us</a></li>
+                </ul>          
+            </div>           
+}
+        </div>
+        <div class="cont">
+               <form class="formstyle">
+                <div>
+                <input type="text" name="name" placeholder="enter your name">
+                </div>
+                <div>
+                    <input type="number" name="age" placeholder="enter your dob">
+                </div>
+                <div>
+                <input type="number" name="phone-number" placeholder="enter your phone number">
+                </div>
+                <div>
+                <input type="email" name="email" placeholder="enter your email">
+                </div>
+                <div>
+                <input type="text" name="address" placeholder="enter your address">    
+                </div> 
+                   <div>
+                       <button class="btn">join now</button>
+                   </div>
+                   
+        
+        <div class="shape">
+            <h1>"success usually comes to those who are busy looking for it"</h1>
+        </div>
+        </div>
+    </body>
+</html>
